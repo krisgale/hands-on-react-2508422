@@ -3,8 +3,8 @@ import Click from './components/Click';
 import Cast from './components/Cast';
 
 function App() {
-  const name = 'StarGazers'
-  const nameStyle = { color: 'SteelBlue' };
+  const name = 'StarGazers';
+  const nameStyle = { 'color': 'SteelBlue' };
   return (
     <div className="container">
       <article>

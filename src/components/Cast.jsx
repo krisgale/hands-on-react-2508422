@@ -10,10 +10,10 @@ export default () => {
     fetchCast();
   } );
   return <div style={ {
-    display: 'grid',
-    gridTemplateColumns: 'repeat(auto-fit, minmax(90px, 1fr))',
-    gap: '1rem',
-    marginBottom: '1rem'
+    'display': 'grid',
+    'gridTemplateColumns': 'repeat(auto-fit, minmax(90px, 1fr))',
+    'gap': '1rem',
+    'marginBottom': '1rem'
   } }>
     { cast.map( member => (
       <a key={ member.id } data-tooltip={ member.name }>
