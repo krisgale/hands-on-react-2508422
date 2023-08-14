@@ -2,8 +2,8 @@ import Welcome from './components/Welcome';
 import Click from './components/Click';
 
 function App() {
-  const name = 'StarGazers'
-  const nameStyle = { color: 'SteelBlue' };
+  const name = 'StarGazers';
+  const nameStyle = { 'color': 'SteelBlue' };
   return (
     <div className="container">
       <article>
@@ -18,4 +18,5 @@ function App() {
     </div>
   )
 }
-export default App
+
+export default App;
