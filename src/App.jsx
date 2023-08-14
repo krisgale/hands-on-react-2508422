@@ -5,17 +5,17 @@ class Welcome extends React.Component {
     super( props );
   }
   render() {
-    return <h1>Meet the { this.props.name }</h1>
+    return <h1>Meet the { this.props.name }</h1>;
   }
 }
 
 const Hello = ( props ) => {
-  return <h1>Meet the <i style={ props.style }>{ props.name }</i></h1>
+  return <h1>Meet the <i style={ props.style }>{ props.name }</i></h1>;
 }
 
 function App() {
-  const name = 'StarGazers'
-  const nameStyle = { color: "SteelBlue" };
+  const name = 'StarGazers';
+  const nameStyle = { 'color': "SteelBlue" };
   return (
     <div className="container">
       <article>
@@ -32,4 +32,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
